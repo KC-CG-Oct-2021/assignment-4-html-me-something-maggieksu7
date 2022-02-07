@@ -1,56 +1,122 @@
 h1 {
     text-align: center;
-    text-decoration: underline;
     color: rgb(255, 255, 255);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Sofia", sans-serif;
     padding: 25px;
     font-size: 45px;
-    background-color: rgb(71, 71, 71);
+    background-color: rgb(200, 99, 128);
   }
   
   h2 {
     text-align: center;
-    text-decoration: underline;
     color: rgb(255, 255, 255);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Sofia", sans-serif;
     background-color: rgb(71, 71, 71);
     padding: 10px;
   }
   
   p {
     color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
   }
   
   body {
-    background-color: lightgray;
-  }
-  
-  img {
-    border-color: white;
-    border-width: thick;
-    padding: 10px;
-    max-width: 40%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: "Montserrat", sans-serif;
+    margin: 8px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
   }
-  
+
   header {
     background-color: white;
   }
   
-  div {
+  /* div {
     background-color: white;
     padding: 25px;
-  }
+  } */
   
   nav {
     list-style-type: none;
     text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(60, 60, 60);
   }
 
+  * {
+    box-sizing: border-box;
+  }
+  
+  #testP {
+      color: green;
+  }
+
+  .column {
+    float: left;
+    width: 20%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
   .row::after {
     content: "";
     clear: both;
     display: table;
+  }
+
+  .cakes {
+    float: left;
+    width: 14%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .triple {
+    float: left;
+    width: 33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .xmas {
+    float: left;
+    width: 20%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  #blurb {
+    background-color: rgb(243, 141, 201);
+    text-align: center
+  }
+
+  #mainHeading {
+    background-color: rgb(126, 226, 147);
+    color:rgb(230, 23, 23)
   }

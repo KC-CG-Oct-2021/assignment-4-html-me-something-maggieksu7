@@ -48,7 +48,7 @@ h1 {
     box-sizing: border-box;
   }
   
-  #testP {
+  .funParagraph {
       color: green;
   }
 

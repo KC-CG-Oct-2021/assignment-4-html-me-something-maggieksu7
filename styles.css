@@ -5,118 +5,113 @@ h1 {
     padding: 25px;
     font-size: 45px;
     background-color: rgb(200, 99, 128);
-  }
+}
   
-  h2 {
+h2 {
     text-align: center;
     color: rgb(255, 255, 255);
     font-family: "Sofia", sans-serif;
     background-color: rgb(71, 71, 71);
     padding: 10px;
-  }
-  
-  p {
+}
+
+p {
     color: rgb(0, 0, 0);
     font-family: 'Montserrat', sans-serif;
-  }
-  
-  body {
+}
+
+body {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     font-family: "Montserrat", sans-serif;
     margin: 8px;
     display: block;
-  }
+}
 
-  header {
+header {
     background-color: white;
-  }
-  
-  /* div {
-    background-color: white;
-    padding: 25px;
-  } */
-  
-  nav {
+}
+
+nav {
     list-style-type: none;
     text-align: center;
     font-family: "Montserrat", sans-serif;
     color: rgb(60, 60, 60);
-  }
+}
 
-  * {
+* {
     box-sizing: border-box;
-  }
-  
-  .funParagraph {
-      color: green;
-  }
+}
 
-  .column {
+.funParagraph {
+    color: green;
+}
+
+.column {
     float: left;
     width: 20%;
     padding: 5px;
-  }
-  
-  /* Clearfix (clear floats) */
-  .row::after {
+}
+
+/* Clearfix (clear floats) */
+.row::after {
     content: "";
     clear: both;
     display: table;
-  }
+}
 
-  .cakes {
+.cakes {
     float: left;
     width: 14%;
     padding: 5px;
-  }
-  
-  /* Clearfix (clear floats) */
-  .row::after {
+}
+
+/* Clearfix (clear floats) */
+.row::after {
     content: "";
     clear: both;
     display: table;
-  }
+}
 
-  .triple {
+.triple {
     float: left;
     width: 33%;
     padding: 5px;
-  }
-  
-  /* Clearfix (clear floats) */
-  .row::after {
+}
+
+/* Clearfix (clear floats) */
+.row::after {
     content: "";
     clear: both;
     display: table;
-  }
+}
 
-  .xmas {
+.xmas {
     float: left;
     width: 20%;
     padding: 5px;
-  }
-  
-  /* Clearfix (clear floats) */
-  .row::after {
+}
+
+/* Clearfix (clear floats) */
+.row::after {
     content: "";
     clear: both;
     display: table;
-  }
+}
 
-  .centered {
+.centered {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-  }
+}
 
-  #blurb {
+#blurb {
     background-color: rgb(243, 141, 201);
     text-align: center
-  }
+}
 
-  #mainHeading {
+#mainHeading {
     background-color: rgb(126, 226, 147);
     color:rgb(230, 23, 23)
-  }
+}

@@ -39,9 +39,9 @@ nav {
     color: rgb(60, 60, 60);
 }
 
-* {
+/* * {
     box-sizing: border-box;
-}
+} */
 
 .funParagraph {
     color: green;
@@ -113,5 +113,5 @@ nav {
 
 #mainHeading {
     background-color: rgb(126, 226, 147);
-    color:rgb(230, 23, 23)
+    color:red;
 }

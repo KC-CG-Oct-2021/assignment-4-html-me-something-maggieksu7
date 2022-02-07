@@ -49,7 +49,7 @@ nav {
 
 .column {
     float: left;
-    width: 20%;
+    width: 19%;
     padding: 5px;
 }
 
@@ -62,7 +62,7 @@ nav {
 
 .cakes {
     float: left;
-    width: 14%;
+    width: 13%;
     padding: 5px;
 }
 
@@ -75,7 +75,7 @@ nav {
 
 .triple {
     float: left;
-    width: 33%;
+    width: 32%;
     padding: 5px;
 }
 
@@ -88,7 +88,7 @@ nav {
 
 .xmas {
     float: left;
-    width: 20%;
+    width: 19%;
     padding: 5px;
 }
 
@@ -103,7 +103,7 @@ nav {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 40%;
 }
 
 #blurb {
